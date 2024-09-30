@@ -13,6 +13,7 @@ import { LazyImageComponent } from "../../../shared/components/lazy-image/lazy-i
   templateUrl: './gifs-card.component.html',
   styleUrl: './gifs-card.component.css'
 })
+
 export class GifsCardComponent  implements OnInit {
   @Input()
   public gif!: Gif;
